@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Assignment</title>
+    <h1 style="background-color:red">This is a heading</h1>
+</head>
+<body style="background-color:yellow">
+    <h4><p style="background-color:green"><big>This is a paragraph.</big></p></h4>
+    
+</body>
+</html>

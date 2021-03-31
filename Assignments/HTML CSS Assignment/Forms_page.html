@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="forms.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+        <h1>Job Application</h1>
+        <p>Please complete the form below to apply for a position with us.</p>
+        <fieldset>
+            <legend>
+                <b>Note: </b>The <b class="red">*</b> are Mandatory to fill
+            </legend>
+            <div class="long">
+                <p class="name">
+                    <b>Full Name </b><b class="red">*  </b>
+                    <table>
+                        <tr>
+                            <td> <input type="text" id="fname" placeholder="first name"> </td>                        
+                            <td> <input type="text" id="mname" placeholder="middle name"> </td>                           
+                            <td> <input type="text" id="lname" placeholder="last name"> </td>                           
+                        </tr>
+                        <tr>
+                            <td> <label for="fname">First Name </label></td>                            
+                            <td> <label for="mname">Middle Name </label></td>                            
+                            <td> <label for="lname">Last Name </label></td>                            
+                        </tr>
+                    </table>
+                </p>
+                <p class="address">
+                    <b>Current Address </b>
+                    <table>
+                        <tr>
+                            <td colspan="2"> <input type="text" id="Address" placeholder="Enter Permanent Address"> </td>                     
+                        </tr>
+                        <tr>
+                            <td colspan="2"> <label for="Address">Street Address </td>                        
+                        </tr>
+                        <tr>
+                            <td colspan="2"> <input type="text" id="Address-Line" placeholder="Enter Temporary Address"> </td>                     
+                        </tr>
+                        <tr>
+                            <td colspan="2"> <label for="Address-Line">Street Address Line 2 </td>                        
+                        </tr>                                        
+                        <tr>
+                            <td> <input type="text" id="city" placeholder="Enter City"> </td>
+                            <td> <input type="text" id="State" placeholder="Enter State"></td>                            
+                        </tr>
+                        <tr>
+                            <td> <label for="city">City</label></td>
+                            <td> <label for="State">State / Province</label></td>
+                        </tr>
+                        <tr>
+                            <td> <input type="text" id="zip" placeholder="Enter zip code"> </td>
+                            <td> 
+                                <select id="dropdown">
+                                    <option value="India">India</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> <label for="zip">Postal / Zip Code</label></td>                           
+                            <td> <label for="country">Country</label></td>
+                        </tr>                        
+                    </table>
+                </p>               
+            </div>  
+            <div>
+                <b> <label id="email-label" for="Email">Email Address</label><b class=red>*</b> </b>
+                <input type="email" required id="email" name="user_email" placeholder="Enter email here"> 
+            </div> 
+            <br> 
+            <div>
+                <b> <label id="number-label" for="phone">Phone Number </label> </b>
+                <input type="number" id="number" name="user_name" placeholder="Enter 10 digit number" >  </div>
+            <div>
+            <br>
+            <div>
+                <b> <label for="position">Apply for position </label><b class="red">*</b> </b>
+                <select id="dropdown" >
+                    <option value="JuniorEngineer">Junior Engineer</option>
+                    <option value="SeniorEngineer">Senior Engineer</option>
+                    <option value="CustomerExpert">Customer Expert</option>
+                    <option value="SalesExecutive">Sales Executive</option>
+                </select>                         
+            </div>  
+            <br>
+            <div>
+                <b>Upload Resume </b><b class="red">* </b>
+                <button>Choose File</button>                
+            </div><br>
+            
+  <div id="submitbutton">
+    <button><i>Send your application</i></button> 
+  </div>
+        </fieldset>
+        </fieldset>  
+    </form>
+</body>
+</html>

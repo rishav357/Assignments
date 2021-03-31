@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style> 
+        .table,.td{border:1px solid black;box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.28);} 
+    
+        .image-div{border:3px solid;color:rgb(131, 61, 131)}
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>2.</h1>
+    <p style="font-size:22px">Create a link of an image:<a  href="javascript:alert('HAHA!');"><img class="image-div" src="Screenshot_smiley.png"></a></p>
+    
+    <p style="font-size:22px">No border around the image, but still a link:<a href="javascript:alert('I am sad');"><img src="Screenshot_smiley.png"></a></a></p>
+
+<div><h1>3.</h1>
+    <p style="font-size:20px;">
+        Each table starts with a table tag. Each table row starts with a tr tag. Each table data starts with a td tag.</p>
+<b>One Column:</b>
+<table class="table" >
+<td class="td">
+     100
+</td>
+
+</table>
+<b>One row and three columns:</b>
+    <table class="table">
+        <tr>
+            <td class="td">100</td>
+            <td class="td">200</td>
+            <td class="td">300</td>
+        </tr>
+    </table>
+    
+        <b>
+            Two rows and three columns:</b><table class="table">
+                <tr>
+                    <td class="td">100</td>
+                    <td class="td">200 </td>
+                    <td class="td">300</td>
+                </tr>
+                <tr>
+                    <td class="td">400</td>
+                    <td class="td">500</td>
+                    <td class="td">600</td>
+                </tr>
+            </table>     
+</div>
+<br>
+<div><h1>4.</h1>
+    <b>This table has borders:</b> 
+    <table class="table">
+        <tr>
+            <td class="td">100</td>
+            <td class="td">200</td>
+            <td class="td">300</td>
+        </tr>
+        <tr>
+            <td class="td">400</td>
+            <td class="td">500</td>
+            <td class="td">600</td>
+        </tr>
+
+    </table>  
+    <b>And this table has no borders:</b>    
+    <table  >
+        <tr>
+            <td>100</td>
+            <td>200</td>
+            <td>300</td>
+        </tr>
+        <tr>
+            <td>400</td>
+            <td>500</td>
+            <td>600</td>
+        </tr>
+    </table>
+</div>
+<h1>5.</h1>
+<h3>Numbered list:</h3>
+<ol>
+    <li>Apples</li>
+    <li>Bananas</li>
+    <li>Lemons</li>
+    <li>Oranges</li>
+</ol>
+<h3>Letters list:</h3>
+<ol type="A">
+    <li>Apples</li>
+    <li>Bananas</li>
+    <li>Lemons</li>
+    <li>Oranges</li>
+</ol>
+<h3>Lowercase letters list:</h3>
+<ol type="a">
+    <li>Apples</li>
+    <li>Bananas</li>
+    <li>Lemons</li>
+    <li>Oranges</li>
+</ol>
+<h3>Roman numbers list:</h3>
+<ol type="I">
+    <li>Apples</li>
+    <li>Bananas</li>
+    <li>Lemons</li>
+    <li>Oranges</li>
+</ol>
+<h3>Lowercase Roman numbers list:</h3>
+<ol type="i">
+    <li>Apples</li>
+    <li>Bananas</li>
+    <li>Lemons</li>
+    <li>Oranges</li>
+</ol>
+<h1>6.</h1>
+<form>
+    <div>
+        <label>Username:</label>
+        <input>
+    </div>
+    <div>
+        <label>Password:</label>
+        <input type="password"  >
+    </div>
+<h1>7.</h1>
+<div>
+    <input type="checkbox">
+    <label><b>I have a bike</b></label>
+</div> 
+<div>
+    <input type="checkbox">
+    <label><b>I have a car</b></label>
+</div> <br>
+<input type="submit">    
+               
+</form>
+<h1>8.</h1>
+<table border="2" align="center">
+    <tr>
+        <td colspan="2" bgcolor="009999">top</td>
+    </tr>
+    <tr height="40" >
+        <td bgcolor="666666"; width="50%">left</td>
+        <td bgcolor="999999"; width="50%">right</td>
+    </tr>
+</table>
+<br/>
+<h1>9.</h1>
+<table border="2" align="center">
+    <tr>
+        <td colspan="2" bgcolor="99999">topleft</td>
+        <td colspan="2" bgcolor="66666">topright</td>
+    </tr>
+    
+    <tr height="40">
+        <td colspan="2" bgcolor="66666" >botleft</td>
+        <td colspan="2" bgcolor="99999" >botright</td>
+    </tr>
+</table>
+</body>
+</html>
